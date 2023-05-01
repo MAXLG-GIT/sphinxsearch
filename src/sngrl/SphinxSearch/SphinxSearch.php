@@ -53,7 +53,7 @@ class SphinxSearch
 			$doc = "'".mysqli_real_escape_string($this->_raw_mysql_connection, strip_tags($doc))."'";
 		}
 
-		$extra_ql = '';
+		$extra_ql = [];
 		if ($extra)
 		{
 			foreach ($extra as $key => $value)
