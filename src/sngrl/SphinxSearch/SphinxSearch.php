@@ -3,13 +3,16 @@ namespace sngrl\SphinxSearch;
 
 class SphinxSearch
 {
-    protected $_connection;
-    protected $_index_name;
-    protected $_search_string;
-    protected $_config;
-    protected $_total_count;
+    protected \Sphinx\SphinxClient $_connection;
+    protected string $_index_name;
+    protected string $_search_string;
+    protected array $_config;
+    protected int $_total_count;
     protected $_time;
-    protected $_eager_loads;
+    protected array $_eager_loads;
+    /**
+     * @var \mysqli
+     */
 	protected $_raw_mysql_connection;
 
     public function __construct()

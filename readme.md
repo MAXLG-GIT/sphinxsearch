@@ -10,12 +10,28 @@ Installation
 
 Require this package in your composer.json:
  
+Old:
 ```php
 	"require": {
         /*** Some others packages ***/
 		"sngrl/sphinxsearch": "dev-master",
 	},
 ```
+
+New:
+```php
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/MAXLG-GIT/sphinxsearch"
+		}
+	],
+	"require": {
+		"MAXLG-GIT/sphinxsearch": "dev-master"
+	}
+```
+
+
 
 Run in your console `composer update` command to pull down the latest version of Sphinx Search.
 
