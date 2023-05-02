@@ -1,4 +1,4 @@
-Sphinx Search for Laravel - Custom build with snippets support 
+Sphinx Search for Laravel - Custom build with snippets support with changes
 =======================
 Simple Laravel package for make queries to Sphinx Search.
 Inspired by scalia/sphinxsearch package for Laravel 4.
