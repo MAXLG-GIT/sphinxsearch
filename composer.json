@@ -23,12 +23,5 @@
     "psr-0": {
       "sngrl\\SphinxSearch": "src/"
     }
-  },
-  "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/MAXLG-GIT/sphinxphp.git"
-      }
-  ]
-
+  }
 }
