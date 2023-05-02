@@ -4,8 +4,7 @@
   "keywords": [
     "sphinx",
     "sphinxsearch",
-    "laravel",
-    "laravel 5"
+    "laravel"
   ],
   "homepage": "http://github.com/sngrl/sphinxsearch",
   "license": "Apache-2.0",
@@ -18,11 +17,18 @@
   "require": {
     "php": ">=8.0",
     "illuminate/support": "~9.0",
-    "gigablah/sphinxphp": "2.0.8"
+    "maxlg-git/sphinxphp": "dev-master"
   },
   "autoload": {
     "psr-0": {
       "sngrl\\SphinxSearch": "src/"
     }
-  }
+  },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/MAXLG-GIT/sphinxphp.git"
+      }
+  ]
+
 }
