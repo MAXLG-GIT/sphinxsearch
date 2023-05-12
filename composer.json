@@ -20,7 +20,7 @@
     "maxlg-git/sphinxphp": "master"
   },
   "autoload": {
-    "psr-0": {
+    "psr-4": {
       "sngrl\\SphinxSearch": "src/"
     }
   }
