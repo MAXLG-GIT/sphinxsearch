@@ -20,7 +20,7 @@ class SphinxSearchServiceProvider extends ServiceProvider
             #__DIR__.'../../../../config/sphinxsearch.php' => config_path('sphinxsearch.php'),
 
             ## https://github.com/sngrl/sphinxsearch/issues/3
-            __DIR__.'/../../../config/sphinxsearch.php' => config_path('sphinxsearch.php'),
+            __DIR__.'/../config/sphinxsearch.php' => config_path('sphinxsearch.php'),
         ]);
     }
 
