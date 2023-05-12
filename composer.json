@@ -17,7 +17,7 @@
   "require": {
     "php": ">=8.0",
     "illuminate/support": "~9.0",
-    "maxlg-git/sphinxphp": "master"
+    "maxlg-git/sphinxphp": "dev-master"
   },
   "autoload": {
     "psr-4": {
