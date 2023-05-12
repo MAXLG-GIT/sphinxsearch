@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "sngrl\\SphinxSearch": "src/"
+      "sngrl\\SphinxSearch\\": "src/"
     }
   }
 }
